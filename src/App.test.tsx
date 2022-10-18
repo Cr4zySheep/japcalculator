@@ -20,3 +20,8 @@ test('renders App', () => {
   const { baseElement } = render(<App />);
   expect(baseElement).toBeDefined();
 });
+
+
+test('should fail', () => {
+  fail("Fail, fool!");
+});
